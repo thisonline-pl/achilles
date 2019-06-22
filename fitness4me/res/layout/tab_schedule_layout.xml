@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+ * Layout for main application activity holding all main tabs (Start, Trainings, Clubs, etc.).
+ * (comment&fixes by Marek Zawadzki)
+-->
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/transparent" >
+    
+    <RelativeLayout
+        android:id="@+id/tabsLayoutRelativeLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/transparent" >
+        
+       <!-- splash ImageView that will be visible only during data loading -->
+       <ImageView
+	       android:id="@+id/imageViewSplashAchilles"
+	       android:layout_width="match_parent"
+	       android:layout_height="match_parent"
+	       android:layout_centerHorizontal="true"
+	       android:src="@drawable/splash_achilles_2" 
+	       android:contentDescription="@string/app_name"/>
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@android:id/tabs" />
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:fillViewport="true"
+            android:scrollbars="none" >
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:showDividers="none"
+                android:visibility="visible" />
+        </HorizontalScrollView>
+    </RelativeLayout>
+
+</TabHost>

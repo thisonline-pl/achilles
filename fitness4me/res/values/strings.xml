@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="toast_item_click">"You clicked on: "</string>
+    <string name="app_name">Achilles</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>     
+    <string name="tab_words">Words</string>
+    <string name="tab_numbers">Numbers</string>
+    <string name="help1">Jeśli chcesz przejść do innej zakładki, naciśnij palcem w odpowiednim miejscu na pasku menu</string>
+	<string name="help2">Pasek menu możesz przesuwać tak, aby dostać się do kolejnych zakładek.
+	    W tym celu przytrzymaj palec w dowolnym miejscu paska i przesuń go w lewo lub w prawo.</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="clubsBarText">Kluby</string>
+    <string name="newsBarText">Co nowego w klubach?</string>
+    
+    <string name="yes">Tak</string>
+    <string name="ok">OK</string>
+    <string name="no">Nie</string>
+    
+    <string name="choose_a_club">Wybierz klub</string>
+    <string name="choose_a_training_type">Wybierz treningi</string>
+    
+    <string name="all_trainings">Wszystkie treningi</string>
+    
+    <string name="application_update_question_title">Bezpłatna akutalizacja aplikacji!</string>
+    <string name="application_update_question">Dostępna jest nowa wersja aplikacji zawierająca poprawki i nowe funkcje. Używanie obecnej wersji jest NIEZALECANE.\nKilknij "Tak" aby uaktualnić aplikację.</string>
+    <string name="offline_mode_warning_title">Tryb OFFLINE</string>
+    <string name="offline_mode_warning">Używasz wersji "demo" aplikacji lub nie powiodło się ładowanie danych (lokalnie i z serwera) - załadowano przykładowe dane.\nSprawdź wersję aplikacji, połaczenie internetowe w telefonie i w razie potrzeby uruchom aplikację ponownie.</string>
+    
+</resources>

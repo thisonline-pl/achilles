@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <TextView 
+        android:id="@+id/grid_label"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:textColor="#FFFFFF"
+        android:background="#9000F000"
+        android:gravity="center"
+        android:textSize="14dp"
+        android:singleLine="false"
+        android:ellipsize="marquee" />
+
+</RelativeLayout>

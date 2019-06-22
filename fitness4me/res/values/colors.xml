@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="word_bar">#FF0000</color>
+    <color name="number_bar">#00FF00</color>
+    <color name="blue">#0000FF</color>
+     <color name="red">#FF0000</color>
+     <color name="lightgreen">#33FF00</color>
+     <color name="white">#FFFFFF</color>
+     <color name="popupWindowTextColor">#FFFFFF</color>
+    
+</resources>
